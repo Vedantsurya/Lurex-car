@@ -1,0 +1,626 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#nav{
+    width: 60%;
+    height: 8%;
+    position: absolute;
+    top: 2%;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+}
+#nav a:nth-child(2){
+    border-bottom: 2px solid  rgb(240, 240, 0);
+}
+#nav a:nth-child(6){
+    border: 2px solid yellow;
+    font-size: 12px;
+    border-radius:2px;
+    padding: 10px 23px;
+}
+#nav h3{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: -55%;
+}
+#part{
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    top: 28%;
+    left: 6.5%;
+}
+#part h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    
+
+}
+#part h1{
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    top: 12%;
+}
+#part p{
+    color: white;
+    position: absolute;
+    top: 50%;
+
+}
+#part button{
+    color: black;
+    border-color: rgb(15, 15, 15);
+    border-width:0;
+    font-size: 10px;
+    position: absolute;
+    bottom: 15%;
+    
+    
+}
+#part button{
+  background-color:yellow;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  outline: none;
+  padding: 10px 23px;
+  
+}
+#main2{
+    width: 100%;
+    height: 100%;
+    background-color: #000000ee;
+}
+#box{
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    right: 6%;
+    top: 120%;
+}
+#box h2{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
+#box p{
+    color: white;
+    font-size: 20px;
+}
+#box button{
+    color: yellow;
+    border-color: rgb(15, 15, 15);
+    border-width:0;
+    font-size: 10px;
+    position: absolute;
+    bottom: 40%;
+    
+    
+}
+#box button{
+  background-color:transparent;
+  border: 1px solid yellow;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  outline: none;
+  padding: 10px 23px;
+  
+}
+#box h3{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    position: absolute;
+    bottom: -50%;
+    left: -40%;
+}
+#main3{
+    width: 100%;
+    height: 100%;
+    background-color: #191919;
+    display: flex;
+    margin-left: 10;
+}
+.part1{
+    width: 18%;
+    height: 35%;
+    background-color: #191919;
+    border-radius: 5%;
+    border: 2px solid rgb(107, 105, 105);
+    position: absolute;
+    top: 220%;
+    left: 18%;
+}
+.part2{
+    width: 18%;
+    height: 35%;
+    background-color: yellow;
+    border-radius: 5%;
+    position: absolute;
+    top: 220%;
+    left: 41%;
+}
+.part3{
+    width: 18%;
+    height: 35%;
+    background-color: #191919;
+    border: 2px solid rgb(107, 105, 105);
+    border-radius: 5%;
+    position: absolute;
+    top: 220%;
+    right: 18%;
+}
+.cricle1{
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 32%;
+}
+.cricle2{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 32%;
+}
+.cricle3{
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 32%;
+}
+.part1 h3{
+     position: absolute;
+     top: 40%;
+     left: 25%;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 500;
+     
+}
+.part1 p{
+    position: absolute;
+    top: 60%;
+    left: 12%;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+.part2 h3{
+     position: absolute;
+     top: 40%;
+     left: 25%;
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 500;
+     
+}
+.part2 p{
+    position: absolute;
+    top: 60%;
+    left: 12%;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+}
+.part3 h3{
+     position: absolute;
+     top: 40%;
+     left: 12%;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 500;
+     
+}
+.part3 p{
+    position: absolute;
+    top: 60%;
+    left: 12%;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+.part4{
+    width: 40%;
+    height: 15%;
+    position: absolute;
+    top: 268%;
+    left: 18%;
+}
+.part4 h2{
+    color: white;
+    font-size: 30px;
+}
+.part4 p{
+    color: white;
+}
+
+#main4{
+    width: 100%;
+    height: 100%;
+    background-color: #191919;
+}
+.bahi1{
+    width: 18%;
+    height: 35%;
+    background-color: transparent;
+    border-radius: 5%;
+    border: 2px solid rgb(107, 105, 105);
+    position: absolute;
+    top: 320%;
+    left: 18%;
+}
+.bahi2{
+    width: 18%;
+    height: 35%;
+    background-color: transparent;
+    border: 2px solid rgb(107, 105, 105);
+    border-radius: 5%;
+    position: absolute;
+    top: 320%;
+    left: 41%;
+}
+.bahi3{
+    width: 18%;
+    height: 35%;
+    background-color: transparent;
+    border: 2px solid rgb(107, 105, 105);
+    border-radius: 5%;
+    position: absolute;
+    top: 320%;
+    right: 18%;
+}
+
+.bahi5{
+    width: 35%;
+    height: 20%;
+    position: absolute;
+    top: 374%;
+    left: 32.5%;
+}
+.bahi4 button{
+    color: yellow; 
+    border-color: rgb(15, 15, 15);
+    border-width:0;
+    font-size: 10px;
+    position: absolute;
+    top: 360%;
+    left: 46%;
+}
+.bahi4 button{
+  background-color: transparent;
+  border: 2px solid yellow;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  outline: none;
+  padding: 10px 23px;
+  
+}
+.bahi5 h2{
+    color: white;
+    font-size: 35px;
+}
+.bahi5 p{
+    color: white;
+    text-align: center;
+}
+.bahi1 h4{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+}
+.bahi2 h4{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+}
+.bahi3 h4{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+}
+.bahi1 h5{
+    color: rgb(255, 166, 0);
+    font-size: 20px;
+    position: absolute;
+    top: 68%;
+    left: 2%;
+
+}
+.bahi2 h5{
+    color: rgb(255, 166, 0);
+    font-size: 20px;
+    position: absolute;
+    top: 68%;
+    left: 2%;
+
+}
+.bahi3 h5{
+    color: rgb(255, 166, 0);
+    font-size: 20px;
+    position: absolute;
+    top: 68%;
+    left: 2%;
+
+}
+.bahi1 h6{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 82%;
+    left: 2%;
+
+}
+.bahi2 h6{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 82%;
+    left: 2%;
+
+}
+.bahi3 h6{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 82%;
+    left: 2%;
+
+}
+.bahi1 h3{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 82%;
+    right: 2%;
+}
+.bahi2 h3{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 82%;
+    right: 2%;
+}
+.bahi3 h3{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 82%;
+    right: 2%;
+}
+
+#main5{
+    width: 100%;
+    height: 100%;
+    background-color: #191919;
+}
+.king1{
+    width: 18%;
+    height: 35%;
+    background-color: rgba(255, 255, 255, 0.363);
+    border-radius: 5%;
+    position: absolute;
+    top: 405%;
+    left: 18%;
+}
+.king2{
+    width: 18%;
+    height: 33%;
+    background-color: rgba(255, 255, 255, 0.363);
+    border-radius: 5%;
+    position: absolute;
+    top: 405%;
+    left: 41%;
+}
+.king3{
+    width: 18%;
+    height: 35%;
+    background-color: rgba(255, 255, 255, 0.363);
+    border-radius: 5%;
+    position: absolute;
+    top: 405%;
+    right: 18%;
+}
+.na1{
+    width: 60px;
+    height: 60px;
+    background-color: gold;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+}
+.na2{
+    width: 60px;
+    height: 60px;
+    background-color: gold;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+}
+.na3{
+    width: 60px;
+    height: 60px;
+    background-color: gold;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+}
+
+.king1 p{
+    color: white;
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    text-align: center;
+    font-size: 15px;
+}
+.king2 p{
+    color: white;
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    text-align: center;
+    font-size: 15px;
+}
+.king3 p{
+    color: white;
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    text-align: center;
+    font-size: 15px;
+}
+.king1 h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 80%;
+    left: 22%;
+}
+.king2 h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+.king3 h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 80%;
+    left: 16%;
+}
+.king4{
+    width: 64%;
+    height: 40%;
+    background-color: yellow;
+    position: absolute;
+    left: 18%;
+    top: 450%;
+}
+.king5{
+    width: 64%;
+    height: 8%;
+    background-color: black;
+    position: absolute;
+    top: 492%;
+    left: 18%;
+}
+#nav1{
+    width: 60%;
+    height: 8%;
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav1 a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+#nav1 i{
+    color: white;
+    font-size: 20px;
+}
+#nav1 h3{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: -30%;
+}
+.ha h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+.ha p{
+    position: absolute;
+    top: 35%;
+    left: 14%;
+    text-align: center;
+}
+.king4 img{
+    width: 100%;
+    height: 100%;
+}
+.bahi1 img{
+    width: 100%;
+}
+.bahi2 img{
+    width: 100%;
+}
+.bahi3 img{
+    width: 100%;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#main2 img{
+    width: 40%;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+}
+
+#main img{
+   width: 50%;
+   position: absolute;
+   top: 10%;
+   right: 5%;
+}
+
+
